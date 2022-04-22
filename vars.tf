@@ -2,8 +2,8 @@ variable "amis" {
     type = map(string)
 
   default = {
-      "us-west-1" = "ami-026c8acd92718196b"
-      "us-west-2" = "ami-0d8f6eb4f641ef691"
+      "us-west-1" = "ami-06542a822d33e2e40"
+      "us-west-2" = "ami-0b36cd6786bcfe120"
   }
 }
 
@@ -15,4 +15,3 @@ variable "cdirs_acesso_remoto" {
 variable "key_name" {
   default = "terraform-aws"
 }
-
